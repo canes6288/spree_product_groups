@@ -5,7 +5,7 @@
 # which returns new combined named scope
 #
 module Spree
-  class ProductScope < Spree::Base
+  class ProductScope < ActiveRecord::Base
     # name
     # arguments
     belongs_to :product_group
